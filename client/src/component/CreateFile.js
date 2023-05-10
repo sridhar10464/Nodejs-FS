@@ -6,7 +6,7 @@ const CreatFile = () => {
     const [message, setMessage] = useState('');
 
     const handleClick = () => {
-      axios.post('http://localhost:5000/api/add-files')
+      axios.post('https://nodejs-fs-jouz.onrender.com/api/add-files')
         .then((response) => {
           setMessage(response.data.message);
         })
