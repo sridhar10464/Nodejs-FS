@@ -1,0 +1,43 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #0077cc;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005faa;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  span {
+    font-size: 0.8rem;
+    color: #666;
+  }
