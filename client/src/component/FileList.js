@@ -7,7 +7,7 @@ const FileList = () =>
 
     useEffect(() =>
     {
-        axios.get("http://localhost:5000/api/get-files")
+        axios.get("https://nodejs-fs-jouz.onrender.com/api/get-files")
             .then(response =>
             {
                 setFiles(response.data);
